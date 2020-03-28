@@ -1,0 +1,106 @@
+// DO NOT ADD COMMENTS IN THIS FILE.  They will be lost when the Rush tool resaves it.
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/approved-packages.schema.json",
+  "packages": [
+    {
+      "name": "@middy/core",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@middy/http-json-body-parser",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@rushstack/eslint-config",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@types/aws-lambda",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@types/http-errors",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@types/jest",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@types/node",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@typescript-eslint/eslint-plugin",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@typescript-eslint/parser",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "aws-lambda",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "bufferutil",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "eslint",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "eslint-config-airbnb-typescript",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "eslint-import-resolver-node",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "eslint-plugin-import",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "eslint-plugin-jest",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "eslint-plugin-promise",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "fp-ts",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "http-errors",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "io-ts",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "jest",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "jest-config",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "prettier",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "ts-jest",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "typescript",
+      "allowedCategories": [ "libraries" ]
+    }
+  ]
+}

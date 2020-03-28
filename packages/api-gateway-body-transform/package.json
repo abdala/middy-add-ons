@@ -1,0 +1,44 @@
+{
+  "name": "@middy-add-ons/api-gateway-body-transform",
+  "version": "1.0.0",
+  "description": "Middy middleware to manipulate body request and response",
+  "keywords": [
+    "middy",
+    "middleware",
+    "domain",
+    "event",
+    "typescript",
+    "aws"
+  ],
+  "homepage": "https://github.com/abdala/middy-add-ons#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdala/middy-add-ons.git"
+  },
+  "license": "LGPL-3.0-or-later",
+  "author": "Abdala Cerqueira",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest *.spec.ts"
+  },
+  "dependencies": {
+    "@middy/core": "~1.0.0-beta.8",
+    "@middy/http-json-body-parser": "~1.0.0-beta.8",
+    "aws-lambda": "~1.0.5",
+    "http-errors": "~1.7.3"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-config": "~0.5.5",
+    "@types/aws-lambda": "~8.10.46",
+    "@types/http-errors": "~1.6.3",
+    "@types/jest": "~25.1.4",
+    "@types/node": "~13.9.5",
+    "eslint": "~6.8.0",
+    "jest": "~25.2.3",
+    "jest-config": "~25.2.3",
+    "prettier": "~2.0.2",
+    "ts-jest": "~25.2.1",
+    "typescript": "~3.8.3"
+  }
+}
