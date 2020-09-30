@@ -1,6 +1,6 @@
 {
   "name": "@middy-add-ons/api-gateway-body-transform",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Middy middleware to manipulate body request and response",
   "keywords": [
     "middy",
