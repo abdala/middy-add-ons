@@ -1,6 +1,6 @@
 {
   "name": "@middy-add-ons/application-event",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Middy wrapper to provide a handler as a service",
   "keywords": [
     "middy",
