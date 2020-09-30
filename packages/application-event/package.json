@@ -30,5 +30,8 @@
     "fp-ts": "^2.5.3",
     "io-ts": "^2.1.2"
   },
-  "gitHead": "b791cd602f34921282f57e649e847ac2d9371a80"
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "031477702f11680c9ea4cd00114f97d75ae5d867"
 }
