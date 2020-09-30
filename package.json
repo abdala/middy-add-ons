@@ -1,6 +1,7 @@
 {
   "name": "middy-add-ons-monorepo",
-  "version": "1.0.2",
+  "license": "LGPL-3.0-or-later",
+  "homepage": "https://github.com/abdala/middy-add-ons",
   "devDependencies": {
     "@types/aws-lambda": "^8.10.46",
     "@types/http-errors": "^1.6.3",
