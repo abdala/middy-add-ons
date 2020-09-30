@@ -18,7 +18,9 @@
   "license": "LGPL-3.0-or-later",
   "author": "Abdala Cerqueira",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
+    "prepublish": "tsc",
     "build": "tsc",
     "test": "jest *.spec.ts"
   },
