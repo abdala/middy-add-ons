@@ -29,5 +29,6 @@
     "@types/aws-lambda": "^8.10.3",
     "fp-ts": "^2.5.3",
     "io-ts": "^2.1.2"
-  }
+  },
+  "gitHead": "3573a0df5c16df33b9f552aafe6aec8cc4be9d1d"
 }

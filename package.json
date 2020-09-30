@@ -1,6 +1,6 @@
 {
-  "name": "root",
-  "private": true,
+  "name": "middy-add-ons-monorepo",
+  "version": "1.0.2",
   "devDependencies": {
     "@types/aws-lambda": "^8.10.46",
     "@types/http-errors": "^1.6.3",

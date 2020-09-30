@@ -29,5 +29,6 @@
     "@middy/http-json-body-parser": "^1.0.0",
     "@types/aws-lambda": "^8.10.3",
     "http-errors": "^1.7.3"
-  }
+  },
+  "gitHead": "3573a0df5c16df33b9f552aafe6aec8cc4be9d1d"
 }
