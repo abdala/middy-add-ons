@@ -8,7 +8,7 @@ import { ParsedAPIGatewayProxyEvent } from '@middy-add-ons/api-gateway-body-tran
 export class APIGatewayBodyDecoderError extends Error {}
 
 export interface DecodedAPIGatewayProxyEvent<T> extends ParsedAPIGatewayProxyEvent {
-  decodedBody: T
+  decodedBody?: T
 }
 
 export function parseType<I, T>(decoder: Decoder<I, T>, data: I): T {
