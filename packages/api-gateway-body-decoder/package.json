@@ -1,6 +1,6 @@
 {
   "name": "@middy-add-ons/api-gateway-body-decoder",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Middy wrapper to provide a handler as a service",
   "keywords": [
     "middy",
@@ -29,7 +29,7 @@
     "index.d.ts"
   ],
   "dependencies": {
-    "@middy-add-ons/api-gateway-body-transformer": "^2.0.1",
+    "@middy-add-ons/api-gateway-body-transformer": "^2.0.2",
     "@middy/core": "^1.0.0",
     "@types/aws-lambda": "^8.10.3",
     "fp-ts": "^2.5.3",
