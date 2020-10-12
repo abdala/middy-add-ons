@@ -24,6 +24,10 @@
     "build": "tsc",
     "test": "jest *.spec.ts"
   },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
   "dependencies": {
     "@middy-add-ons/api-gateway-body-transformer": "^2.0.0",
     "@middy/core": "^1.0.0",

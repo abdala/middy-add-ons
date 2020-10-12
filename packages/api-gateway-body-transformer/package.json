@@ -24,6 +24,10 @@
     "build": "tsc",
     "test": "jest *.spec.ts"
   },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
   "dependencies": {
     "@middy/core": "^1.0.0",
     "@types/aws-lambda": "^8.10.3",
