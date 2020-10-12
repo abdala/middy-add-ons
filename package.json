@@ -16,7 +16,7 @@
     "typescript": "^3.8.3"
   },
   "dependencies": {
-    "@middy-add-ons/api-gateway-body-transform": "file:packages/api-gateway-body-transform",
-    "@middy-add-ons/application-event": "file:packages/application-event"
+    "@middy-add-ons/api-gateway-body-transformer": "file:packages/api-gateway-body-transformer",
+    "@middy-add-ons/api-gateway-body-decoder": "file:packages/api-gateway-body-decoder"
   }
 }
