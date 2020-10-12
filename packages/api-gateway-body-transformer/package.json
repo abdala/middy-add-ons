@@ -1,7 +1,7 @@
 {
-  "name": "@middy-add-ons/application-event",
+  "name": "@middy-add-ons/api-gateway-body-transformer",
   "version": "1.0.6",
-  "description": "Middy wrapper to provide a handler as a service",
+  "description": "Middy middleware to manipulate body request and response",
   "keywords": [
     "middy",
     "middleware",
@@ -27,8 +27,7 @@
   "dependencies": {
     "@middy/core": "^1.0.0",
     "@types/aws-lambda": "^8.10.3",
-    "fp-ts": "^2.5.3",
-    "io-ts": "^2.1.2"
+    "http-errors": "^1.7.3"
   },
   "publishConfig": {
     "access": "public"

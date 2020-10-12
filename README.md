@@ -2,45 +2,41 @@
 
 Group of packages to use together with middy
 
-## API Gateway Body transform
+## API Gateway Body Transformer
 
 Middy middleware to transform body content for request and response
 
 ### Usage
 
 ```js
-import { apiGatewayBodyTransform } from './index'
+import middy from '@middy/core'
+import { apiGatewayBodyTransform } from '@middy-add-ons/api-gateway-body-transformer'
 
 middy(...)
     .use(apiGatewayBodyTransform());
 ```
 
-## Middy Application Event
+## API Gateway Body Decoder
 
-Wrapper around middy function to decode (unserialize) application event from AWS events using io-ts.
+Middleware to decode (unserialize) application event from AWS events using io-ts.
 
 ### Usage
 
 ```js
-import { middyApplicationEvent } from '@middy-add-ons/application'
+import middy from '@middy/core'
+import { middyApplicationEvent } from '@middy-add-ons/api-gateway-body-decoder'
 
-const DomainEvent = t.readonly(
+const Body = t.readonly(
     t.type({
         foo: t.string,
         functionName: t.string,
     }),
 )
-type DomainEvent = t.TypeOf<typeof DomainEvent>
+type Body = t.TypeOf<typeof Body>
 
-export const handler = middyApplicationEvent(
-    DomainEvent,
-    (event: APIGatewayProxyEvent, context: Context) => ({
-        foo: event.body || '',
-        functionName: context.functionName,
-    }),
-    async (domainEvent: DomainEvent) => {
-        return { ...domainEvent }
-    },
-);
+import { apiGatewayBodyDecoder } from '@middy-add-ons/api-gateway-body-decoder'
+
+middy(...)
+    .use(apiGatewayBodyDecoder(Body));
 ```
 
